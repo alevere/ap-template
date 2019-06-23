@@ -2,24 +2,20 @@
 
 -------
 
-# Open Command and Control (OpenC2) Profile for Stateless Packet Filtering Version 1.0
-## Working Draft 08
-## 23 May 2019
+# Open Command and Control (OpenC2) Template for an Actuator Profile
+## Working Draft [##]
+## [DD] [Month] 20[##]
 ### Specification URIs
 #### This version:
-* TBD.md (Authoritative)
-* TBD.html
-* TBD.pdf
+* oasis-to-fill-in.md (Authoritative)
+* oasis-to-fill-in.html
+* oasis-to-fill-in.pdf
 
 #### Previous version:
-* http://docs.oasis-open.org/openc2/oc2slpf/v1.0/csprd01/oc2slpf-v1.0-csprd02.md (Authoritative)
-* http://docs.oasis-open.org/openc2/oc2slpf/v1.0/csprd01/oc2slpf-v1.0-csprd02.html
-* http://docs.oasis-open.org/openc2/oc2slpf/v1.0/csprd01/oc2slpf-v1.0-csprd02.pdf
+* [URIs]
 
 #### Latest version:
-* http://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.md (Authoritative)
-* http://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html
-* http://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.pdf
+* [URIs]
 
 #### Technical Committee:
 * [OASIS Open Command and Control (OpenC2) TC](https://www.oasis-open.org/committees/openc2/)
@@ -29,13 +25,11 @@
 * Duncan Sparrell (duncan@sfractal.com), [sFractal Consulting LLC](http://www.sfractal.com/)
 
 #### Editors:
-* Joe Brule (jmbrule@nsa.gov), [National Security Agency](https://www.nsa.gov/)
-* Duncan Sparrell (duncan@sfractal.com), [sFractal Consulting](http://www.sfractal.com/)
-* Alex Everett (alex.everett@unc.edu), [University of North Carolina, Chapel Hill](http://www.unc.edu/)
+* [Your name here, Organization, URI]
 
 #### Abstract:
 
-Open Command and Control (OpenC2) is a concise and extensible language to enable the command and control of cyber defense components, subsystems and/or systems in a manner that is agnostic of the underlying products, technologies, transport mechanisms or other aspects of the implementation. Stateless packet filtering is a cyber defense mechanism that denies or allows traffic based on static properties of the traffic, such as address, port, protocol, etc. This profile defines the Actions, Targets, Specifiers and Options that are consistent with the version 1.0 of the OpenC2 Language Specification ([[OpenC2-Lang-v1.0]](#openc2-lang-v10)) in the context of stateless packet filtering (SLPF).
+Open Command and Control (OpenC2) is a concise and extensible language to enable the command and control of cyber defense components, subsystems and/or systems in a manner that is agnostic of the underlying products, technologies, transport mechanisms or other aspects of the implementation. [REPLACE with a 1-2 sentence summary of your ACTUATOR’s functions. ] This profile defines the Actions, Targets, Specifiers and Options that are consistent with the version 1.0 of the OpenC2 Language Specification ([[OpenC2-Lang-v1.0]](#openc2-lang-v10)) in the context of [your Actuator].
 
 #### Status:
 This document was last revised or approved by the OASIS Open Command and Control (OpenC2) TC on the above date. The level of approval is also listed above. Check the "Latest version" location noted above for possible later revisions of this document. Any other numbered Versions and other technical work produced by the Technical Committee (TC) are listed at https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#technical.
@@ -49,8 +43,8 @@ Note that any machine-readable content ([Computer Language Definitions](https://
 #### Citation format:
 When referencing this specification the following citation format should be used:
 
-**[OpenC2-SLPF-v1.0]**
-_Open Command and Control (OpenC2) Profile for Stateless Packet Filtering Version 1.0_. Edited by Joe Brule, Duncan Sparrell and Alex Everett. 23 May 2019. OASIS Working Draft 08. http://docs.oasis-open.org/openc2/oc2slpf/v1.0/csprd01/oc2slpf-v1.0-csprd02.html. Latest version: http://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html.
+**[OpenC2-SHORT AP NAME HERE-v#.0]**
+_Open Command and Control (OpenC2) [Your Actuator Profile Name] Version 1.0_. Edited by [Last Name, First Name]. [##] [Month] 20[##]. OASIS Working Draft [##]. [URI]. Latest version: [URI].
 
 -------
 
@@ -179,7 +173,7 @@ The name "OASIS" is a trademark of [OASIS](https://www.oasis-open.org/), the own
 -------
 
 # 1 Introduction
-
+[The following is boilerplate material for an introduction focusing on the profiles. This section need not be modified and this comment can be erased.] 
 _The content in this section is non-normative, except where it is marked normative._
 
 OpenC2 is a suite of specifications that enables command and control of cyber defense systems and components. OpenC2 typically uses a request-response paradigm where a _Command_ is encoded by a _Producer_ (managing application) and transferred to a _Consumer_ (managed device or virtualized function) using a secure transfer protocol, and the Consumer can respond with status and any requested information.
@@ -187,6 +181,7 @@ OpenC2 is a suite of specifications that enables command and control of cyber de
 OpenC2 allows the application producing the commands to discover the set of capabilities supported by the managed devices. These capabilities permit the managing application to adjust its behavior to take advantage of the features exposed by the managed device. The capability definitions can be easily extended in a noncentralized manner, allowing standard and non-standard capabilities to be defined with semantic and syntactic rigor.
 
 ## 1.1 IPR Policy
+[The following is boilerplate material for an introduction focusing on the profiles. This section need not be modified and this comment can be erased.] 
 This specification is provided under the [Non-Assertion](https://www.oasis-open.org/policies-guidelines/ipr#Non-Assertion-Mode) Mode of the [OASIS IPR Policy](https://www.oasis-open.org/policies-guidelines/ipr), the mode chosen when the Technical Committee was established. For information on whether any patents have been disclosed that may be essential to implementing this specification, and any offers of patent licensing terms, please refer to the Intellectual Property Rights section of the TC's web page ([https://www.oasis-open.org/committees/openc2/ipr.php](https://www.oasis-open.org/committees/openc2/ipr.php)).
 
 ## 1.2 Terminology
